@@ -6,7 +6,6 @@ I'm currently practising Lua and I thought it'd be nice to share some DarkRP fun
 The current functions are:
 
 ###Money printers
-
 (Currently only support for [!!!Warlock!!!'s printers](http://steamcommunity.com/sharedfiles/filedetails/?id=105620182))
 
 __Function__ | __Return__
