@@ -32,6 +32,8 @@ E:shipmentSpawnAmount() | [Number] Returns the amount of entities in the shipmen
 E:shipmentPricePerUnit() | [Number] Returns the price of 1 entity, when bought in a shipment (shipmentCost / shipmentAmount)
 
 #How to install
+Click the "Download ZIP" button on the right, extract in the addons folder of your server.
+The addon is enabled automatically, if you still encounter problems, try running `wire_expression2_extension_enable darkrp` followed by `wire_expression2_reload`.
 
 #"Credits"
 As some people might notice, all my functions have the same names and behavior as the functions on ByB Servers. I kept the function names and behavior the same, to not break all the E2s made on these servers (useful for people who are not that good with E2, but use one anyways).
