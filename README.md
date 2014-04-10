@@ -1,9 +1,5 @@
 #Wire Expression 2 DarkRP functions
-====================================
 I'm currently practising Lua and I thought it'd be nice to share some DarkRP functions for the ones that would like it.
-
-
-The current functions are:
 
 ###Money printers
 (Currently only support for [!!!Warlock!!!'s printers](http://steamcommunity.com/sharedfiles/filedetails/?id=105620182))
