@@ -9,16 +9,11 @@ The current functions are:
 
 (Currently only support for [!!!Warlock!!!'s printers](http://steamcommunity.com/sharedfiles/filedetails/?id=105620182))
 
-__Function__
-
-E:isPrinter()
-[Number] Returns 1 if the entity is a money printer, 0 if it isn't.
-
-E:printedMoney()
-[Number] Returns the amount of money stored in the money printer, -1 if the entity isn't a money printer.
-
-E:printerType()
-[String] Returns the type (or class) of the printer, "" if the entity isn't a money printer.
+__Function__ | __Return__
+------------- | -------------
+E:isPrinter() | [Number] Returns 1 if the entity is a money printer, 0 if it isn't.
+E:printedMoney() | [Number] Returns the amount of money stored in the money printer, -1 if the entity isn't a money printer.
+E:printerType() | [String] Returns the type (or class) of the printer, "" if the entity isn't a money printer.
 
 ###Spawned money
 
