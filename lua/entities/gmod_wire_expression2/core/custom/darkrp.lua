@@ -4,9 +4,9 @@ E2Lib.RegisterExtension("darkrp", true)
 e2function number entity:isPrinter()
 	if not IsValid(this) then  return 0 end
 	if string.Right(this:GetClass(), 13) == "money_printer" then 
-		return 0 
-	else
 		return 1
+	else
+		return 0
 	end
 end
 
