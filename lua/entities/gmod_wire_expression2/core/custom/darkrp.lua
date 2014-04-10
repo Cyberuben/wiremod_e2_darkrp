@@ -3,7 +3,7 @@ E2Lib.RegisterExtension("darkrp", true)
 -- Money printers (!!!WARLOCK!!!)
 e2function number entity:isPrinter()
 	if not IsValid(this) then  return 0 end
-	if string.Right(this:GetClass(), 13) != "money_printer" then 
+	if string.Right(this:GetClass(), 13) == "money_printer" then 
 		return 0 
 	else
 		return 1
@@ -12,19 +12,19 @@ end
 
 e2function number entity:printedMoney()
 	if not IsValid(this) then  return -1 end
-	if string.Right(this:GetClass(), 13) != "money_printer" then 
-		return -1
-	else
+	if string.Right(this:GetClass(), 13) == "money_printer" then 
 		return this:GetNWInt("PrintA")
+	else
+		return -1
 	end
 end
 
 e2function string entity:printerType()
 	if not IsValid(this) then return "" end
-	if string.Right(this:GetClass(), 13) != "money_printer" then 
-		return ""
-	else
+	if string.Right(this:GetClass(), 13) == "money_printer" then 
 		return this:GetClass()
+	else
+		return ""
 	end
 end
 

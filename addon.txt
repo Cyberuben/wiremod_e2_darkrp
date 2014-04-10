@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+	"name"		"Wiremod E2 DarkRP Functions"
+	"version"	"1.0"
+	"up_date"	"10-04-2014"
+	"author_name"	"Cyberuben"
+	"author_email"	"ruben@rubenrutten.nl"
+	"info"		"E2 functions for DarkRP. (Shipment, money printer and spawned money)"
+}
