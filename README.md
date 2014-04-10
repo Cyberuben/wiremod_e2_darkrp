@@ -34,3 +34,9 @@ E:shipmentPricePerUnit() | [Number] Returns the price of 1 entity, when bought i
 #How to install
 
 Place the darkrp.lua file in "wiremod/
+
+#"Credits"
+As some people might notice, all my functions have the same names and behavior as the functions on ByB Servers. I kept the function names and behavior the same, to not break all the E2s made on these servers (useful for people who are not that good with E2, but use one anyways).
+
+- Lexi for the original functions
+- Myself for these functions, written from scratch.
