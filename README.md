@@ -7,6 +7,7 @@ The current functions are:
 
 ###Money printers
 (Currently only support for [!!!Warlock!!!'s printers](http://steamcommunity.com/sharedfiles/filedetails/?id=105620182))
+
 __Function__ | __Return__
 ------------- | -------------
 E:isPrinter() | [Number] Returns 1 if the entity is a money printer, 0 if it isn't.
